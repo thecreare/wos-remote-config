@@ -13,7 +13,7 @@ local Query = require("query.luau")(Modem, Disk)
 
 local whitelist = Query("amoungus/whitelist.json")
 -- Should print creare's id
-print(whitelist[1][1])
+print(whitelist[1]["id"])
 ```
 
 ## Whitelist/Blacklist Format
